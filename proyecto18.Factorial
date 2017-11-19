@@ -1,0 +1,40 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto18.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Calculo Factorial. Por ejemplo: para dar mas seguridad a hashes
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones  */
+int factorialRecursivo();
+
+/* Funcion principal */
+int main(){
+
+	int i=0;
+
+	//Bucle que imprime un teto con el calculo del
+	//factorial de los numeros comprendidos entre 0 y 5
+	for (i = 0; i <= 5; i++){
+		printf("%d! vale: %d \n", i, factorialRecursivo(i));
+	}
+}
+
+/* Funcion recursiva que devuelve el factorial de un entero */
+/*programacion recursiva, en excel referencia circular*/
+int factorialRecursivo(int n){
+	if ( n <= 1 ){
+		//Devuelve un 1.
+		return 1;
+	} else {
+		//la funcion se invoca a si misma
+		return n * factorialRecursivo(n - 1);
+	}
+
+}
