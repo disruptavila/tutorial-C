@@ -1,0 +1,33 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto8.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Evaluando con If ... else if ... else
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main(){
+
+	/* Declaracion de variable y asignar valor */
+	int numero = 4;
+
+//	/* Condicion: ¿la variable numero es mayor que 2? */
+	if (numero > 5) {
+		//Si es verdadero, imprimir en pantalla
+		printf("Si, lo es, %d es mayor que 5.", numero);
+	} else if(numero < 3){
+		//Si es verdadero, imprimir en pantalla
+		printf("%d es menor que 3.", numero);
+
+	} else {
+		//Si es verdadero, imprimir en pantalla
+		printf(" %d no es mayor que 5 ni menor que 3.",numero);
+	}
+}
