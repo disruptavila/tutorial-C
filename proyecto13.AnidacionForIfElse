@@ -1,0 +1,72 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto13.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Anidacion de for, if...else
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* declaracion de variables */
+int i, j;
+char caracter;
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main() {
+
+	caracter = 'a';
+
+	/* Inicialmente i vale 0, ejecuta la accion
+	 * mientras i sea menor o igual que 9 y en
+	 * cada iteraccion a i se le suma 1.
+	 */
+
+	for (i = 0; i <= 9; i++) {
+
+		/*Accion 1: Imprime un texto indicando el valor actual de i */
+		printf("La variable i = %d ", i);
+
+		/* Accion 2: En cada iteracion asignamos a la variable j el valor de j+3-i. A continuacion se imprimme
+		 * un texto indicando el valor actual de la vairable j
+		 *
+		 */
+
+		j = j + 3 - i;
+		printf(", j=%d ", j);
+
+		if ((i > 3) && (caracter == 'a')) {
+
+			/* Accion 3: si i es mayor que 3 y caracter es 'a', solo en ese caso se redefine el
+			 * valor de caracter a 'w'
+			 */
+			caracter = 'w';
+
+		} else {
+
+			/* y sino... */
+			if (caracter != 'z') {
+				/*Accion 4: si caracter es didtinto de 'z', se redefine el valor
+				 * de caracter a 'z'
+				 */
+				caracter = 'z';
+			} else {
+				/* y sino... */
+
+				/*Accion 5: se redefine el valor de
+				 * caracter = 'a'
+				 *
+				 */
+
+				caracter = 'a';
+			}
+
+		}
+		printf("y caracter = %c (fin)\n", caracter);
+
+	}
+
+}
