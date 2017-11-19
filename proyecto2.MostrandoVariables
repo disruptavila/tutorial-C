@@ -1,0 +1,39 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto2.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171118
+ *	Descripcion:		Mostrando variables
+ *
+ */
+
+#include<stdio.h>
+
+int main() {
+
+//	int a,b,c;
+//	float a,b,c;
+	double a, b, c;
+
+//	a = 3;
+//	b = 25;
+//	c = a + b;
+
+//	a = 3 + 2;
+//	b = a + 1;
+//	c = 5 - a - b;
+
+//	a = 3 + 2;
+//	b = 4.3;
+//	c = 0.123;
+
+	a = 3.2 + 2;
+	b = 4.3;
+	c = 0.123;
+
+	printf("la variable a = %f, \n la variable b = %.5f, \n y c = %.2f ", a, b,
+			c);
+	fflush(stdin);
+}
+
