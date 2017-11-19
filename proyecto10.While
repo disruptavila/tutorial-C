@@ -1,0 +1,27 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto10.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		While
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main() {
+
+	/*Declaracion de variable local i */
+	int i=0;
+
+	/*Declaracion de while*/
+	while (i<3){
+
+		printf("i vale = %d\n", i);
+		i++;  //aumentamos i para conseguir la condicion de salida
+	}
+
+}
