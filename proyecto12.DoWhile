@@ -1,0 +1,36 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto12.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Do { } While ( )
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main() {
+
+	//Declaracion de variable i
+	int i = 1;
+
+	/* inicialmente i vale 1; ejecuta la acciona
+	 * mientras i sea menor o igual que 9;
+	 */
+
+	do{
+
+		/*El valor actual de i es multiplicado por X2,
+		 * tenemos dos formas de dar valor al i
+		 */
+
+//		i*=2;
+		i = i * 2;
+
+		printf("la variable 'i' = %d \n",i);
+	}while(i<=9);  //condicion de while, mientras i se menos o igual a 9 seguimos en while
+
+}
