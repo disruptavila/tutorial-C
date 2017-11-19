@@ -1,0 +1,38 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto15.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Funciones
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones y procedimientos */
+
+char miFuncion1();
+
+/* Funcion principal */
+
+int main(){
+
+	/* Se imprimie una line que imprime un dato
+	 * de tipo int, y el dato lo obtiene del return de
+	 * la funcion miFuncion()
+	 */
+	printf("La funcion devuelve %d. \n",miFuncion1());
+
+
+}
+
+/* Funcion desarrollada */
+char miFuncion1(){
+	/* Declaracion de variables y asignacion de valores */
+	int i=3, j=5;
+
+	/*el datos que devuelve la funcion. 	 */
+	return i*j;
+}
