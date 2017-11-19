@@ -8,9 +8,13 @@
  *
  */
 
+/* Declaracion de archivos de encabezado o headers */
 #include<stdio.h>
 
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
 int main() {
+
 
 //	int a,b,c;
 //	float a,b,c;
