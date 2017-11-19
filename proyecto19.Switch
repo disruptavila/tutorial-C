@@ -1,0 +1,59 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto19.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Explicando switch
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de procedimientos  */
+
+void imprimirMensaje();
+//void pedirOtroNumero();
+
+/* Declaracion de variable sin asignar */
+int numero;
+
+/* Funcion principal */
+int main(){
+
+	/* Mensaje que pide introducir un numero */
+	printf("Introduce un numero del 1 al 3:");
+
+	/*El numero introducido se almacena en la direccion
+	 * de memoria de la variable numero
+	 */
+	scanf("%d",&numero);
+
+	/*En caso que la variable numero valga... */
+	switch(numero){
+		//El numero 1
+	case 1:
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(numero);
+				break;
+		//El numero 2
+	case 2:
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(numero);
+				break;
+		//El numero 3
+	case 3:
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(numero);
+				break;
+		//Cualquier otro numero distinto a 1 hasta 3
+	default:
+		//Imprimel el mensaje
+			printf("Numero distintos de 1,2 o 3.\n");
+	}
+}
+
+void imprimirMensaje(int numero){
+	printf("\n Has introducido el numero %d.\n",numero);
+}
