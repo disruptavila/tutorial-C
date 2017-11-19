@@ -1,0 +1,27 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto5.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171118
+ *	Descripcion:		Mostrando punteros
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones, en este caso, la funcion principal
+ * tenemos dos formas de hacerlo, una comentada y la normal, en ejecucion
+ * */
+//int main(int argc, char** argv){
+
+  int main(){
+	/*Declaracion de variables puntero char */
+	char *nombre = "Jorge";
+	char *apellidos = "Martin Jimenez";
+
+	/*Imprimir valores */
+	printf("Mi nombre es: %s y mis apellidos son: %s. \n", nombre, apellidos);
+
+}
