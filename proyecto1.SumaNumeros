@@ -1,0 +1,42 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto1.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171118
+ *	Descripcion:		Programa ejemplo que suma dos digitos
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones */
+int suma(int, int);
+
+/* Declaracion de funciones */
+int main() {
+
+	/* Declaracion de variables locales */
+	int a = 3;
+	int b = 4;
+
+	/* Contenido interno */
+	printf("El resultado de la suma de %d + %d = %d.\n", a, b, suma(a, b));
+
+}
+
+/* Cuerpo de la funcion suma */
+
+int suma(int x, int z) {
+
+	/* Declaracion de variables locales */
+
+//	int primerNumero = x;
+//	int segundoNumero = z;
+	/* Contenido interno */
+
+//	return primerNumero + segundoNumero;
+	return x + z;
+
+}
