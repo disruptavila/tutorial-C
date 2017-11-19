@@ -1,0 +1,31 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto17.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Procedimientos 2
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones y procedimientos */
+void imprimeNombreApellido();
+
+/* Funcion principal */
+int main() {
+
+	imprimeNombreApellido("Satoshi", "Nakamoto");
+	imprimeNombreApellido("Jorge", "Martin");
+	imprimeNombreApellido("Javier", "Dominguez");
+
+}
+
+/*Procedimiento */
+
+void imprimeNombreApellido(char *nombre, char *apellido) {
+
+	printf("Me llamo %s %s. \n", nombre, apellido);
+}
