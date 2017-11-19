@@ -7,10 +7,14 @@
  *	Descripcion:		Mostrando variables de distintos tipos
  *
  */
+
+/* Declaracion de archivos de encabezado o headers */
 #include<stdio.h>
 
+/* Declaracion de variables: constantes*/
 #define PI 3.141592
 
+/* Declaracion de variables: globales*/
 int edad = 18;
 long edadDelUniverso = 137000000;
 float altura = 1.78;
@@ -18,11 +22,16 @@ double pesoHidrogeno = 0.000000000000000016789;
 char letra = 'a';
 char diaDeLaSemana[] = "Viernes";
 
+/* Declaracion de funciones, en este caso, la funcion principal*/
 int main() {
 
+	/* muestro el valor de las variables */
 	printf("PI = %f .\n", PI);
 	printf("Tengo %d anos.\n", edad);
-	printf("Universo: %lu.\n", edadDelUniverso);
+	printf("Edad del Universo: %lu.\n", edadDelUniverso);
+	printf("Mido: %.2f cms.\n", altura);
 	printf("Peso Hidrogeno: %.21f.\n", pesoHidrogeno);
+	printf("Letra: %c.\n", letra);
+	printf("Dia de la semana: %s.\n", diaDeLaSemana);
 
 }
