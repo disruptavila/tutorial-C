@@ -18,6 +18,7 @@
  * */
 void miProcedimiento1();
 
+/* Funcion principal */
 int main() {
 
 	miProcedimiento1();
