@@ -1,0 +1,38 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto6.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171118
+ *	Descripcion:		Acciones con punteros
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main(){
+
+	/*Declaramos la variable local 	 */
+	int miVariable = 0;
+
+	/* Accion 1 */
+	miVariable = miVariable + 3;
+	printf("1.- la variable ahora vale: %d.\n", miVariable);
+
+
+
+
+	/* Accion 2 */
+	miVariable = miVariable - 1;
+		printf("2.- la variable ahora vale: %d.\n", miVariable);
+
+
+	/* Accion 3 */
+		miVariable = miVariable * 5;
+		printf("3.- la variable ahora vale: %d.\n", miVariable);
+
+
+}
