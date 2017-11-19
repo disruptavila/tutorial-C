@@ -1,0 +1,28 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto3.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171118
+ *	Descripcion:		Mostrando variables de distintos tipos
+ *
+ */
+#include<stdio.h>
+
+#define PI 3.141592
+
+int edad = 18;
+long edadDelUniverso = 137000000;
+float altura = 1.78;
+double pesoHidrogeno = 0.000000000000000016789;
+char letra = 'a';
+char diaDeLaSemana[] = "Viernes";
+
+int main() {
+
+	printf("PI = %f .\n", PI);
+	printf("Tengo %d anos.\n", edad);
+	printf("Universo: %lu.\n", edadDelUniverso);
+	printf("Peso Hidrogeno: %.21f.\n", pesoHidrogeno);
+
+}
