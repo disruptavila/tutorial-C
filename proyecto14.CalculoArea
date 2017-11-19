@@ -1,0 +1,35 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto14.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Calculando el area
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/*Declaramos las constantes  */
+#define PI 3.141592
+
+/*Declaramos las variables  */
+
+float area, b, h;
+
+int main() {
+
+	/*Asignacion de variables */
+
+	b = 5.1;
+	h = 9.7;
+	area = 2 * PI * b * (h + b);
+
+	/*Imprime un texto con los valores de las variables */
+
+	printf("El area de un triangulo que mide %.2f cm de"
+			" base y %.2f cm de altura es %.2f centimetros"
+			" cuadrados.\n", b, h, area);
+
+}
