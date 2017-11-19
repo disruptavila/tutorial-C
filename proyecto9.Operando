@@ -1,0 +1,33 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto9.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Asignaciones: Operando y mostrando
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main() {
+
+	/* Declaracion de variable y asignar valor */
+	int i = 0, j = 5, k = 3, n = 8, m = 6;
+
+	/* Operando con rapidez */
+	i += 3;
+	j -= 1;
+	k *= 2;
+	n /= 4;
+	m %= 2;
+
+	printf("%d\n", i);
+	printf("%d\n", j);
+	printf("%d\n", k);
+	printf("%d\n", n);
+	printf("%d\n", m);
+
+}
