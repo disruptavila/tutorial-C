@@ -1,0 +1,35 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto16.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Procedimientos
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de funciones y procedimientos
+ * Funcion: 	devuelve el tipo de variable que lleva en su declaracion:
+ * 			char miFuncion1();  en este caso de tipo char
+ * Procedimiento: devuelve void (vacio)
+ * */
+void miProcedimiento1();
+
+int main() {
+
+	miProcedimiento1();
+	miProcedimiento1();
+	miProcedimiento1();
+
+}
+
+/* Desarrollo del Procedimiento */
+
+void miProcedimiento1() {
+
+	printf("Cada vez que me invoquen imprimo"
+			" este texto. \n");
+}
