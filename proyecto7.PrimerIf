@@ -1,0 +1,30 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto7.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Empezando con If
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+
+/* Declaracion de funciones, en este caso, la funcion principal*/
+int main(){
+
+	/*Declaramos la variable local 	 */
+	char miVariable = 'a';
+
+	/*Evaluamos con IF, si miVariable es igual a 'a'
+	 * nos mostrara el siguiente mensaje,  */
+	if ( miVariable == 'a'){
+		printf("La variable continene '%c' y no 'e'.\n", miVariable);
+
+	}
+
+
+	/*En cualquier otro caso, saldra  */
+}
