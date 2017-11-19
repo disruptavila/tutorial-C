@@ -1,0 +1,62 @@
+/*	Comentarios sobre lo que el programa realiza */
+/*
+ * 	Nombre: proyecto20.c
+ *	Version:	v0.1
+ *	Autor:	Jorge Martin
+ *	Fecha:	20171119
+ *	Descripcion:		Switch con letras
+ *
+ */
+
+/* Declaracion de archivos de encabezado o headers */
+#include<stdio.h>
+
+/* Declaracion de procedimientos  */
+void imprimirMensaje();
+//void pedirOtroNumero();
+
+/* Declaracion de variable sin asignar */
+char  caracter;
+
+
+/* Funcion principal */
+int main(){
+
+		/* Mensaje que pide introducir un numero */
+		printf("Introduce un caracter del a al c:");
+
+		/*El numero introducido se almacena en la direccion
+		 * de memoria de la variable numero
+		 */
+		scanf("%c",&caracter);
+
+
+
+	/*En caso que la variable numero valga... */
+	switch(caracter){
+		//El numero 1
+	case 'a':
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(caracter);
+				break;
+		//El numero 2
+	case 'b':
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(caracter);
+				break;
+		//El numero 3
+	case 'c':
+				//Ejecuta la funcion imprimirMensaje();
+				imprimirMensaje(caracter);
+				break;
+		//Cualquier otro numero distinto a 1 hasta 3
+	default:
+		//Imprimel el mensaje
+			printf("caracter distintos de a,b o c.\n");
+	}
+}
+
+void imprimirMensaje(int caracter){
+	printf("\n Has introducido el caracter %c.\n",caracter);
+}
+
